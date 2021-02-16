@@ -1,3 +1,3 @@
 # coding practice
 
-CSS got so much better!
+HTML & CSS got so much better!
