@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display:flex;
+        }
+        .gugudan-box{
+            display:inline-block;
+            padding:10px;
+            border:1px solid black;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin:10px;
+            font-size:15px;
+        }
+        h1{
+            font-weight: 700;
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        document.write('<div class="box">');
+        for(var i = 2; i < 10; i++){
+            document.write('<div class="gugudan-box">')
+            document.write(`<h1>${i} 단</h1>`);
+            for(var j = 1; j < 10; j++){
+                document.write(`${i} * ${j} = ${i*j}`);
+                document.write("<br>");
+            }
+            document.write('</div>');
+        }
+        document.write('</div>');
+    </script>
+</body>
+</html>
