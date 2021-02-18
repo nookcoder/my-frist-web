@@ -1,0 +1,47 @@
+.dec-img {
+  position: relative;
+}
+
+.dec-img img {
+  width: 40%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.dec-img__btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: tomato;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.dec-img__btn:focus {
+  outline: none;
+}
+
+.dec-img__btn:hover {
+  opacity: 0.9;
+}
+
+.dec {
+  width: 40%;
+}
+.dec__btn {
+  background: tomato;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.dec-img__btn,
+.dec {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
