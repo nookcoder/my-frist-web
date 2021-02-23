@@ -1,0 +1,57 @@
+@import "reset.css";
+@import "variable.css";
+@import "bookshop-nav.css";
+@import "bookshop-today.css";
+:root {
+  --yellow: #ffce33;
+}
+body {
+  width: 100%;
+}
+.h1title {
+  font-size: x-large;
+  font-weight: 700;
+}
+.top-ad__stars {
+  color: var(--yellow);
+  margin-top: 20px;
+}
+.top-ad__stars .fa-star:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+.top-ad {
+  margin-left: 18px;
+}
+.top-ad h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.top-ad__container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.top-ad__book {
+  margin-right: 25px;
+}
+.author {
+  margin: 20px 0px 0px 18px;
+}
+.author__container {
+  display: flex;
+  margin: 20px 0px;
+}
+.author__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+.author__text h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.author__text span {
+  line-height: 23px;
+}

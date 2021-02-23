@@ -1,0 +1,101 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 330px;
+  border: 5px solid #00c6ad;
+}
+.status-bar {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px 10px 0px;
+}
+.status-bar p {
+  font-size: x-large;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  right: 20px;
+}
+.fa-times {
+  margin-left: 40px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+  align-items: center;
+}
+.title__text {
+  position: relative;
+  right: 20px;
+}
+.title .title__text h1 {
+  font-weight: 900;
+}
+.title .title__text span {
+  font-weight: 700;
+}
+.fa-image {
+  color: #ffbd11;
+}
+.btn form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn__play {
+  background-color: white;
+  width: 140px;
+  height: 50px;
+  font-size: large;
+  font-weight: 900;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 3px 0px black;
+}
+.fa-caret-right {
+  margin-right: 10px;
+}
+.btn__circle {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 3px 0px black;
+}
+.color {
+  margin-top: 35px;
+}
+.color__rows {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.color__rows__text {
+  display: flex;
+  flex-direction: column;
+}
+.color__rows__text h2 {
+  margin: 0px;
+}
+.box {
+  height: 45px;
+  width: 45px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 10px 0px 20px;
+}
+.matargasti {
+  background-color: #f85a2a;
+}
+.Attitude {
+  background-color: #ff89bb;
+}
+.TryEverthing {
+  background-color: #1947e5;
+}
+.Sunflower {
+  background-color: #00c6ad;
+}

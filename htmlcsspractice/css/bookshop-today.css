@@ -1,0 +1,54 @@
+.today-book {
+  margin: 35px 17px;
+  width: 100%;
+}
+.today-book__container {
+  display: flex;
+  margin-top: 27px;
+}
+
+.today-book__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+
+.today-book__content h1 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.today-book__content > span {
+  font-size: 20px;
+  opacity: 0.3;
+}
+.today-book__stars {
+  color: var(--yellow);
+}
+.today-book__stars .fa-star:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+.today-book__author {
+  width: 100%;
+}
+.today-book__author button {
+  padding: 8px 17px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.today-book__click {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-bookmark {
+  color: var(--yellow);
+}
+.today-book__click button {
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+}

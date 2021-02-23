@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/music-page.css">
+</head>
+<body>
+  <div class="page-container">
+    <div class="page first-page">
+      <div class="status-bar">
+        <div class="status-bar__column"> 
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="status-bar__column"> 
+          <i class="fas fa-share"></i>
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+
+      <header class="artist">
+        <h1>Ed sheeran</h1>
+        <span>Pop, R&B</span>
+      </header>
+    
+      <div class="btn">
+        <div class="botton">
+          <span>Shuffle</span>
+        </div>
+        <div class="botton">
+          <i class="fas fa-heart fa-sm"></i>
+          <span>212 971</span>
+        </div>
+      </div>
+
+      <main class="album">
+        <div class="album__row">
+          <div class="album__column">
+            <img src="data:image/jpeg;base64,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" alt="shape-of">
+          </div>
+          <div class="album__column">
+            <div class="album__text">
+              <span>Ed sheeran</span>
+              <h4>Shape of you</h4>
+            </div>
+            <div class="album__icon">
+              <i class="fas fa-ellipsis-v fa-lg"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="album__row">
+          <div class="album__column">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/ad/X_cover.png" alt="Photograph">
+            <i class="fas fa-play"></i>
+          </div>
+          <div class="album__column">
+            <div class="album__text">
+              <span>Ed sheeran</span>
+              <h4>Photograph</h4>
+            </div>
+            <div class="album__icon">
+              <i class="fas fa-ellipsis-v fa-lg"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="album__row">
+          <div class="album__column">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Edsheeranplushmv.png/220px-Edsheeranplushmv.png" alt="Drunk">
+          </div>
+          <div class="album__column">
+            <div class="album__text">
+              <span>Ed sheeran</span>
+              <h4>Drunk</h4>
+            </div>
+            <div class="album__icon">
+              <i class="fas fa-ellipsis-v fa-lg"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="album__row">
+          <div class="album__column">
+            <img src="https://s.mxmcdn.net/images-storage/albums4/2/0/0/5/3/4/37435002_350_350.jpg" alt="perfect">
+          </div>
+          <div class="album__column">
+            <div class="album__text">
+              <span>Ed sheeran</span>
+              <h4>Perfect</h4>
+            </div>
+            <div class="album__icon">
+              <i class="fas fa-ellipsis-v fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="play-bar">
+        <div class="play-bar__column">
+          <div class="play-bar__text">
+            <span>Ed sheeran</span>
+            <h4>Photograph</h4>
+          </div>
+        </div>
+
+        <div class="play-bar__column">
+          <div class="play-bar__icon">
+            <i class="fas fa-step-backward fa-sm"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-step-forward fa-sm"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="page second-page">
+      <div class="status-bar">
+        <div class="status-bar__column"> 
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="status-bar__column"> 
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <div class="play-photo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/ad/X_cover.png" alt="Photograph">
+      </div>
+
+      <header class="play-artist">
+        <h1>Photograph</h1>
+        <span>Edsheeran</span>
+      </header>
+
+      <div class="play-control">
+        <div class="play-control__bar">  
+          <div class="play-control__time">
+            <span>1:58</span>
+            <span>2:21</span>
+          </div>
+          <div class="play-control__slider">  
+            <form action="#">
+              <input type="range">
+            </form>
+          </div>
+        </div>
+
+        <div class="play-control__btn">
+          <i class="fas fa-redo-alt"></i>
+          <div class="play-control__btn__center">
+            <i class="fas fa-step-backward"></i>
+            <div class="play-control__btn__play">  
+              <i class="fas fa-play"></i>
+            </div>
+            <i class="fas fa-step-forward"></i>
+          </div>
+          <i class="fas fa-random"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
+</body>
+</html>

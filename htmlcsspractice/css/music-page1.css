@@ -1,0 +1,175 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.status-bar__column i {
+  transition: color 0.5s ease-in-out;
+}
+
+.status-bar__column i:hover {
+  color: gray;
+}
+
+.first-page {
+  background: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0) 0%,
+      rgba(10, 10, 10, 0.7) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2018%2F12%2Fed-sheeran-taylor-swift-top-tours-01.jpg?q=75&w=800&cbr=1&fit=max");
+  background-size: 150% 50%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.page {
+  width: 280px;
+  height: 610px;
+  background-color: black;
+  border-radius: 40px;
+}
+.status-bar {
+  margin: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.status-bar i {
+  color: white;
+}
+
+.fa-share {
+  margin-right: 5px;
+}
+
+.artist {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 0px 40px 0px;
+}
+
+.artist h1 {
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.artist span {
+  opacity: 0.3;
+}
+
+.btn {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botton {
+  background-color: white;
+  font-size: small;
+  width: 33%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 15px;
+  box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.616);
+  transition: background-color 0.2s ease-out;
+}
+.botton:last-child span {
+  opacity: 0.4;
+}
+.botton:hover {
+  background-color: rgba(255, 255, 255, 0.692);
+  box-shadow: 0px 1.5px 5px rgba(128, 128, 128, 0.904);
+}
+.album {
+  margin-top: 35px;
+  color: white;
+}
+.album__row {
+  margin: 0px 10px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 5px;
+  transition: background-color 0.2s ease-out;
+}
+.album__row:hover {
+  background-color: rgba(128, 128, 128, 0.479);
+  box-shadow: 0px 1.5px 5px rgba(128, 128, 128, 0.904);
+}
+.album__column:last-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+}
+.album__column img {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.album__column:first-child {
+  position: relative;
+}
+.album__column:first-child .fa-play {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+}
+.album__row:nth-child(2) {
+  box-shadow: 0px 0.5px 5px gray;
+}
+.album__row:nth-child(2) img {
+  filter: brightness(60%);
+}
+.album__icon .fa-ellipsis-v {
+  opacity: 0.6;
+}
+.album__text span {
+  opacity: 0.5;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 3px;
+}
+.album__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.play-bar {
+  background: rgba(255, 255, 255, 0.945);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin: 10px 13px;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.808);
+}
+.play-bar__text {
+  position: relative;
+  bottom: 3px;
+}
+.play-bar__text span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.play-bar__text h4 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.fa-step-backward,
+.fa-pause {
+  margin-right: 10px;
+}
