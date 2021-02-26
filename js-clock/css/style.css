@@ -30,3 +30,31 @@ body {
   z-index: -9;
   animation: fadeIn 0.5s ease-in-out;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-clock {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+input {
+  border: none;
+  background: inherit;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
