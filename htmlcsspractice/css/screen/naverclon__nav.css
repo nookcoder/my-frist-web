@@ -1,0 +1,17 @@
+.navigator {
+  width: 100%;
+  padding: 20px var(--left-margin);
+  font-weight: 700;
+  border-top: var(--border);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigator span {
+  margin: 0px 5px;
+}
+
+#navigator__green {
+  color: var(--green);
+  opacity: 1;
+}

@@ -1,0 +1,56 @@
+@import "variable.css";
+
+.top-bar__start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar__start span:hover {
+  border-bottom: 1px solid black;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  padding-top: 10px;
+  margin-right: 195px;
+}
+
+.top-bar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0.3px 1px;
+  margin: 0px 5px;
+}
+
+.top-bar__vertical-bar {
+  width: 2px;
+  height: 10px;
+  background: black;
+  opacity: 0.4;
+  margin: 0px 5px;
+}
+
+.top-bar span:last-child {
+  margin-left: 5px;
+}
+
+.top-bar span:nth-child(3):hover,
+.top-bar span:last-child:hover {
+  color: var(--green);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.top-bar span:last-child,
+.top-bar span:nth-child(3) {
+  font-weight: 700;
+  opacity: 0.3;
+}
