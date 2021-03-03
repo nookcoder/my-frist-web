@@ -53,7 +53,7 @@ class Shape{
     }
 }
 
-class Ractangle extends Shape{}
+class Ractangle extends Shape{} 
 
 class Triangle extends Shape{
     draw(){
